@@ -1,0 +1,58 @@
+{
+  "uid" : "378743ed0b0a26c7",
+  "name" : "test1",
+  "fullName" : "test.test1",
+  "historyId" : "7b34feabf50289f4ca2824009eb4e7bc",
+  "time" : {
+    "start" : 1588248073306,
+    "stop" : 1588248131724,
+    "duration" : 58418
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//iframe[contains(@id,'container')]\") still not displayed after 30000ms",
+  "statusTrace" : "Error: element (\"//iframe[contains(@id,'container')]\") still not displayed after 30000ms\n                    at C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:34:15\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\webdriverio\\build\\middlewares.js:21:24)\n                    at async Element.runCommandWithHooks (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:88:21)\n                    at Element.runCommandWithHooks (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:82:22)\n                    at Element.wrapCommandFn (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:59:40)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\webdriverio\\build\\middlewares.js:40:8)\n                    at Element.waitForDisplayed (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\webdriverio\\build\\commands\\element\\waitForDisplayed.js:14:15)\n                    at Element.wrapCommandFn (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:54:17)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\webdriverio\\build\\middlewares.js:21:57)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at ElementUtil.switchToFrame (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\actions\\elementUtil.js:40:17)\n                    at HomePage.closeBanner (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\pages\\home.page.js:19:16)\n                    at Context.<anonymous> (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\test\\login.test.js:12:18)\n                    at Context.executeSync (C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\index.js:56:18)\n                    at C:\\Users\\Deepak\\Documents\\webdriverIOFramework\\node_modules\\@wdio\\sync\\build\\index.js:82:70",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "378743ed0b0a26c7.json",
+  "parameterValues" : [ "chrome" ]
+}

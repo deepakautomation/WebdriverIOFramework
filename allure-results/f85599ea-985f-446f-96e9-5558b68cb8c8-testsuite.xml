@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1588271726061' stop='1588271735992'>
+    <name>Verify login page test cases</name>
+    <title>Verify login page test cases</title>
+    <test-cases>
+        <test-case start='1588271726061' status='passed' stop='1588271735990'>
+            <name>fetch all links on homepage</name>
+            <title>fetch all links on homepage</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588271735991' status='pending' stop='1588271735991'>
+            <name>User navigate to login page</name>
+            <title>User navigate to login page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1588271735991' status='pending' stop='1588271735991'>
+            <name>Enter credentials on login Page</name>
+            <title>Enter credentials on login Page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1588271735991' status='pending' stop='1588271735991'>
+            <name>Verify that user successfully logged in</name>
+            <title>Verify that user successfully logged in</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

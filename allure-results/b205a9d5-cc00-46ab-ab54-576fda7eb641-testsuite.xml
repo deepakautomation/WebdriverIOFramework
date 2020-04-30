@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1588248073305' stop='1588248131726'>
+    <name>test</name>
+    <title>test</title>
+    <test-cases>
+        <test-case start='1588248073306' status='broken' stop='1588248131724'>
+            <name>test1</name>
+            <title>test1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//iframe[contains(@id,'container')]") still not displayed after 30000ms</message>
+                <stack-trace>Error: element ("//iframe[contains(@id,'container')]") still not displayed after 30000ms
+                    at C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.runCommandWithHooks (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Element.runCommandWithHooks (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Element.wrapCommandFn (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at Element.elementErrorHandlerCallback (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\webdriverio\build\middlewares.js:40:8)
+                    at Element.waitForDisplayed (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\webdriverio\build\commands\element\waitForDisplayed.js:14:15)
+                    at Element.wrapCommandFn (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\wrapCommand.js:54:17)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\webdriverio\build\middlewares.js:21:57)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at ElementUtil.switchToFrame (C:\Users\Deepak\Documents\webdriverIOFramework\actions\elementUtil.js:40:17)
+                    at HomePage.closeBanner (C:\Users\Deepak\Documents\webdriverIOFramework\pages\home.page.js:19:16)
+                    at Context.&lt;anonymous> (C:\Users\Deepak\Documents\webdriverIOFramework\test\login.test.js:12:18)
+                    at Context.executeSync (C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\Deepak\Documents\webdriverIOFramework\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,67 @@
+{
+  "uid" : "d77da8d2d65daed",
+  "name" : "test1",
+  "fullName" : "test.test1",
+  "historyId" : "7b34feabf50289f4ca2824009eb4e7bc",
+  "time" : {
+    "start" : 1588248441674,
+    "stop" : 1588248453561,
+    "duration" : 11887
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "test1"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "378743ed0b0a26c7",
+      "status" : "broken",
+      "statusDetails" : "element (\"//iframe[contains(@id,'container')]\") still not displayed after 30000ms",
+      "time" : {
+        "start" : 1588248073306,
+        "stop" : 1588248131724,
+        "duration" : 58418
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d77da8d2d65daed.json",
+  "parameterValues" : [ "chrome" ]
+}
